@@ -74,6 +74,15 @@ plt.xlabel('Predicted label')
 ran_for_acc_score = RF_clf.score(x_test,y_test)
 print(ran_for_acc_score)
 
+#%%
+
+# Example usage
+input_features = [[40,1,1,140,289,0,1,172,0,0,2], [49,0,2,160,180,0,1,156,0,1,1],
+                  [37,1,1,130,283,0,2,98,0,0,2], [60,1,2,160,300,0,1,125,0,1,1]]
+
+test_feature = [[44,1,1,150,288,0,1,150,1,3,1]]
+prediction = RF_clf.predict(test_feature)
+print(prediction)
 
 #%%
 
@@ -89,6 +98,10 @@ with open('saved_steps.pkl', 'rb') as file:
 RF_loaded = data["model"]
 label_encoder_loaded = data["label_encoder"]
 
+
+# Make predictions
+new_prediction = RF_loaded.predict(test_feature)
+print(new_prediction)
 
 
 

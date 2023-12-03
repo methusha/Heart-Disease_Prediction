@@ -55,11 +55,11 @@ def show_predict_page():
         X[:, 10] = label_encoder_loaded.fit_transform(X[:, 10])
         X = X.astype(float)
         
-        heart_disease_prediction = RF_loaded.predict(X)
+        heart_failure_prediction = RF_loaded.predict(X)
         
-        if heart_disease_prediction[0] == 0:
+        if heart_failure_prediction[0] == 0:
             result = "There is a lower likelihood of heart disease."
-        elif heart_disease_prediction[0] == 1:
+        elif heart_failure_prediction[0] == 1:
             result = "There is a higher likelihood of heart disease."
         else:
             result = "Results inconclusive."

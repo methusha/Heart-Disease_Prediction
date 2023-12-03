@@ -2,7 +2,7 @@
 
 
 ## Description
-This project is aimed towards creating a predictive machine learning application for rapid heart disease classification, aiming to enhance diagnostic accuracy in healthcare. The Random Forest algorithm, achieving a 91.8% accuracy, was selected as the optimal choice among a variety of predictive models. To allow for user interaction, the application was deployed using Streamlit, an open-source framework tailored for machine learning projects. Despite the moderately high accuracy, ongoing refinement of algorithm parameters is essential before responsibly deploying the tool into healthcare settings. Further research and optimization of these parameters are strongly recommended.
+This project is aimed towards creating a predictive machine learning application for rapid heart disease classification, aiming to enhance diagnostic accuracy in healthcare. The Random Forest algorithm, achieving a 91.8% accuracy, was selected as the optimal choice among a variety of predictive models in the scikit-learn library. To allow for user interaction, the application was deployed using Streamlit, an open-source framework tailored for machine learning projects. Despite the moderately high accuracy, ongoing refinement of algorithm parameters is essential before responsibly deploying the tool into healthcare settings. Further research and optimization of these parameters are strongly recommended.
 
 
 ## How to Run the Project
@@ -25,3 +25,9 @@ The data used to train the Random Forest Model in this project was composed by t
 The data can be found here:
 
 https://archive.ics.uci.edu/dataset/45/heart+disease
+
+
+## Selection of the Predictive Model
+Various models from the scikit-learn library were trained to determine which yielded the optimal results for this project. The types of algorithms tested were standard and hypertuned versions of Logistic Regression, Decision Tree, Random Forest, SVC and K-Nearest Neighbours. The models trained in this project can be viewed in this file in this directory:
+
+project_development/heart_disease_model_testing.py

@@ -15,6 +15,24 @@ https://cs6440-heart-disease-prediction.streamlit.app/
 Once you run the project, you will see a page resembling a form. Here, you can enter the health metrics of a patient and you will see whether or not they are likely to have heart disease. If you would like to test real-patient data, you can refer to the heart.csv file within this repository. This csv file has patient health metrics and whether they have heart disease or not.
 
 
+## Architecture Diagram
+``` mermaid
+journey
+	title Me studying for exams
+	section Exam is announced
+		I start studying: 1: Me
+		Make notes: 2: Me
+		Ask friend for help: 3: Me, Friend
+		We study togther: 5: Me, Friend
+	section Exam Day
+		Syllabys is incomplete: 2: Me
+		Give exam: 1: Me, Friend
+	section Result Declared
+		I passed the exam with destinction!: 5: Me
+		Friend barely gets passing marks: 2: Friend
+```
+
+
 ## Credits
 The data used to train the Random Forest Model in this project was composed by the following creators:
 * Hungarian Institute of Cardiology. Budapest: Andras Janosi, M.D.

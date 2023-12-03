@@ -18,7 +18,7 @@ Once you run the project, you will see a page resembling a form. Here, you can e
 ## Architecture Diagram
 ```mermaid
 flowchart LR
-    id["User Inputs on UI"] --> id["Random Forest Program Computes Prediction"]
+    A["User Inputs on UI"] --> B["Random Forest Program Computes Prediction"]
 ```
 
 

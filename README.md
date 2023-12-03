@@ -7,6 +7,7 @@ This project is aimed towards creating a predictive machine learning application
 
 ## How to Run the Project
 This project can be accessed through the Streamlit Community Cloud. Access this link to run the project:
+
 https://cs6440-heart-disease-prediction.streamlit.app/
 
 

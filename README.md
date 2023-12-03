@@ -18,7 +18,7 @@ Once you run the project, you will see a page resembling a form. Here, you can e
 ## Architecture Diagram
 ```mermaid
 flowchart LR
-    User Inputs on UI --> Random Forest Program Computes Prediction
+    "User Inputs on UI" --> "Random Forest Program Computes Prediction"
 ```
 
 

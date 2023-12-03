@@ -16,8 +16,13 @@ Once you run the project, you will see a page resembling a form. Here, you can e
 
 
 ## Architecture Diagram
-flowchart LR
+```mermaid
+journey
+	flowchart LR
     Start --> Stop
+```
+
+
 
 
 ## Credits
